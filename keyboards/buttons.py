@@ -14,3 +14,18 @@ directions = ReplyKeyboardMarkup(
     ],
     resize_keyboard=True
 )
+
+gender = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="сука"),
+            KeyboardButton(text="кобель"),
+        ],
+
+        [
+            KeyboardButton(text="небинарный"),
+        ],
+
+    ],
+    resize_keyboard=True
+)

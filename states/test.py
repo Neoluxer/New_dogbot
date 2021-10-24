@@ -10,4 +10,6 @@ class Dogs(StatesGroup):
     Q6 = State()
     Q7 = State()
     Q8 = State()
+    Q9 = State()
+    Q10 = State()
 
